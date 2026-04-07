@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Germán Barreto — Archive</title>
+<link rel="icon" href="https://www.logotypes101.com/logos/368/D0F947C097C2F2D2CB9A4F4BC450B03A/pegasus.png">
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
 /* ============ CONFIG / THEME ============ */
@@ -27,6 +28,30 @@
   --card-bg: rgba(26,27,30,0.03);
   --noise-opacity: 0.04;
 }
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 7px;    /* thickness of vertical scrollbar */
+  height: 7px;   /* thickness of horizontal scrollbar */
+}
+
+/* 2. The track (background) */
+::-webkit-scrollbar-track {
+  background: var(--charcoal);
+  border-radius: 1ch;
+}
+
+/* 3. The thumb (handle) */
+::-webkit-scrollbar-thumb {
+  background: var(--cream);
+  border-radius: 10px;
+}
+
+/* 4. Hover effect */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--cream);
+}
+
 
 * { margin:0; padding:0; box-sizing:border-box; }
 html, body { background:var(--bg); color:var(--fg); font-family:'Space Grotesk',sans-serif; overflow-x:hidden; transition: background 0.6s ease, color 0.6s ease; }
